@@ -1,0 +1,1029 @@
+#body{
+    background-color: rgba(144, 144, 238, 0.932);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /*Trava o elemento para que nõa sofra mudanças de tamanho*/
+    box-sizing: border-box;
+}
+
+
+#containerMae{
+    height: 3260px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}   
+
+#containerMenu{
+    height: 200px;
+    width: inherit;
+}
+
+.containerCursosHome{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.212);
+}
+
+
+/* Seção do Icone e Nome do Cabeçalho */
+
+#iconeNomeMenu{
+    height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+
+}
+
+
+
+#iconeMenu{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+   /* margin-right: 110px; */
+    float: left;
+    margin-top: -25px;
+    margin-right: 80px;
+    
+}
+
+#iconeEscolaMenu{
+    width: 150px;
+    height: 150px;
+}
+
+#nomeMenu{
+    float: left;
+    height: 100px;
+    width: 800px;
+    padding-top: 30px;
+    color: blue;
+    text-align: center;
+    padding-right: 225px;
+}
+
+#hrMenu{
+    width: 580px;
+    height: 5px;
+    color: blue;
+    background-color: blue;
+}
+
+/* Seção do Menu */
+.aLinkMenu{
+    text-decoration: none;
+    color: white;
+    font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#caixaMenu{
+    height: 35px;
+    width: 1100px;
+    background-color: rgb(31, 30, 30);
+}
+
+.itemMenu{
+    float: left;
+    width: 180px;
+    height: inherit;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.itemMenu:hover{
+    background-color: rgb(63, 63, 226);
+    color: white;
+    text-decoration: underline;
+    transition: 0.8s;
+    cursor:pointer;
+}
+
+.submenuCursos{
+    display: none;
+    width: 180px;
+    height: 100px;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    position: absolute;
+
+}
+
+.subMenuCursosItem{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.subMenuCursosItem:hover{
+    background-color: rgb(63, 63, 226);
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.itemMenu:hover > .submenuCursos{
+    display: block;
+}
+
+#submenuComposto{
+    opacity: 0;
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    margin-top: -25px;
+    
+
+}
+
+.itemSubMenuComposto{
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.itemSubMenuComposto:hover{
+    background-color: rgb(63, 63, 226);
+    text-decoration: underline;
+
+}
+
+.subMenuCursosItem:hover > #submenuComposto{
+    opacity: 1;
+    transition: 1.5s;
+    margin-left: 180px;
+}
+
+/* seção da pagina inicial */
+.aHome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.h1Home, .h2Home{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.pHome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.h2Home:hover{
+    color: red;
+    text-decoration: underline;
+}
+.fotoCursoInicio{
+     float: left;
+    height: 276px;
+    width: 286px;
+    /*background-color: lightcoral;*/
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border: groove 10px rgba(45, 45, 247, 0.788);
+
+}
+
+.imagensCursos{
+    width: 266px;
+    height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-top: -5px;
+}
+
+.descricaoCursoInicio{
+    float: right;
+    height: 280px;
+    width: 690px;
+    /*background-color: rgba(240, 230, 140, 0.404);*/
+    margin-bottom: 10px;
+    margin-right: 40px;
+    
+}
+
+.pLinkHome{
+    margin-left: 550px;
+    margin-top: 70px;
+    position:absolute
+}
+
+/* Seção sobre a Instituição */
+
+#containerMaeInstituição{
+    height: 930px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+
+
+#tituloComecoInstituicao{
+    width: 300px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#hrTituloInstituicao{
+    background-color: black;
+    color: black;
+    width: 238px;
+    /*margin-left: ;*/
+    margin-right: 10px; 
+    height: 5px;
+}
+
+#fotoInstituicao{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 35px;
+    background-image: url(../imagens/notebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conteudoInstituicao{
+    float: left;
+    height: 300px;
+    width: 700px;
+    /*background-color: cadetblue;*/
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#fraseInstituicao{
+    height: 150px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: chocolate;*/
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#containterInsituicao{
+    height: 380px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgba(0, 255, 255, 0.315);*/
+}
+
+/* Seção dos Cursos online */
+#containerMaeCursosOnline{
+    height: 1200px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+/* container o que é curso online */
+
+#containerOqueEcursoOnline{
+    width: 100%;
+    height: 300px;
+    /*background-color: khaki;*/
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.conteudoOqueECursoOnline{
+    width: 800px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Container qual a diferença do curso onlne para o ead */
+#containerDiferencaCursoOnlineEad{
+    width: 100%;
+    height: 400px;
+    /*background-color: lightcoral;*/
+  
+}
+#TituloDiferencaEad{
+    width: 600px;
+    height: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 400px;
+    margin-right: 150px;
+    font-size: 1.5;
+    margin-bottom: -90px;
+    padding-top: 25px;
+}
+#OrganizadorCursoOnline{
+    height: 350px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    /*background-color: blueviolet;*/
+}
+#imagemCursoOnline{
+    float: left;
+    width: 300px;
+    height: 300px;
+    /*background-color: burlywood;*/
+    margin-right: 20px;
+    background-image: url(../imagens/imagemDuvidas.png);
+    background-size: cover;
+
+}
+#diferencaCursoOnlineEad{
+    float: left;
+    width: 650px;
+    height: 250px;
+    /*background-color: crimson;*/
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+}
+
+#containerNossosCursos{
+    /*width: 100%;*/
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloParaListaDosCursos{
+    width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    /*font-size: 1.5em;*/
+}
+
+#listaCursoOnline{
+    width: 250px;
+    height: 100px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.liCursoOnline{
+    font-size: 1em;
+}
+
+.liCursoOnline:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+    width: 400px;
+}
+
+/* Seção Nossos Professore */
+#containerMaeProfessores{
+    height: 860px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#containerNossosProfessores{
+    height: 600px;
+    width: 100%;
+}
+
+#nossosProfessores{
+    width: 980px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerSocialNossosProfessores{
+    height: 150px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloProfessores{
+    height: 50px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/* Seção das fotos e nomes dos Professores */
+
+#professorNata{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 130px;
+    margin-left: 120px;
+    border-radius: 100%;
+    background-image: url(../imagens/AvatarProfessor1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#professorBrayan{
+    height: 300px;
+    width: 300px;
+    float: left;
+    border-radius: 100%;
+    background-image: url(../imagens/avatarProfessor2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nomeProfessor1{
+    float: left;
+    height: 50px;
+    width: 400px;
+    margin-right: 35px;
+    margin-left: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+#nomeProfessor2{
+    float: left;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+
+/* Seção da Social dos Professores */
+
+#caixaProfessorNata{
+    float: left;
+    width: 465px;
+    height: 150px;
+    margin-left: 40px;
+}
+#caixaProfessorBrayan{
+    float: left;
+    width: 450px;
+    height: 150px;
+}
+
+.caixaSocialProfessores{
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.iconeSocialProfessores{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.InstagramIconeProfessores{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/logoInsta.png);
+    background-size: contain;
+
+}
+.linkedinIconeProfessores{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/iconeLinkedin-removebg-preview.png);
+    background-size: contain;
+}
+
+.RedeSocialProfessores{
+    float: left;
+    padding-top: 15px;
+    width: 350px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.aProfessores{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: black;
+}
+
+
+/* Seção Plataforma Youtube */
+
+#containerMaeYoutube{
+    height: 975px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#tituloYoutube{
+    height: 50px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sloganYoutube{
+    width: 100%;
+    height: 350px;
+    background-image: url(../imagens/YoutubeWallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#conteudoYoutube{
+    height: 250px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aYoutube{
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+/* Seção dos Contatos */
+
+#containerMaeContatos{
+    height: 700px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#conteudoContatos{
+    height: 440px;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloContatos{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ImagemPrincipalContatos{
+    float: left;
+    width: 300px;
+    height:300px;
+    margin-left: 40px;
+    margin-right: 10px;
+    background-image: url(../imagens/EscolaContatos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#DescricaoContatos{
+    float: left;
+    width: 310px;
+    height:300px;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#emailSocialIconeContatos{
+    float: left;
+    width: 300px;
+    height:300px;
+}
+
+.caixaSocialContatos{
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.iconeSocialContatos{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.InstagramIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/logoInsta.png);
+    background-size: contain;
+}
+
+.linkedinIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/iconeLinkedin-removebg-preview.png);
+    background-size: contain;
+}
+
+.phoneIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/telefone.png);
+    background-size: contain;
+}
+
+.emailIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/emailContatos.png);
+    background-size: contain;
+}
+
+.aContatos{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+
+/* Seção Cursos de HTML */
+
+#containerMaeCursosDeHtml{
+    height: 2950px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#containerCursosDeHtml{
+    height:2640px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+    margin-bottom: 50px;
+}
+
+#comoCriarUmaTabela{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+.TituloCursosHtml{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    /*background-color: skyblue;*/
+}
+
+.descricaoCursosHtml{
+    height: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    /*background-color: seagreen;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.caixaAlignVideoHtml{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+
+#comoInserirUmaImagemhtml{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+#comoCriarUmaListaHorizontal{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+#ComoColocarImagemBackgroundCss{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rosybrown;*/
+}
+
+/* Seção Cursos de Sistemas Operacionais */
+
+.h2CursosHtmlEsop{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2CursosHtmlEsop:hover{
+    color:rgb(63, 63, 226);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+#containerMaeCursosDeSop{
+    height: 4150px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#CursosDeSopConteudo{
+    width: 1000px;
+    height: 3890px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: brown;*/
+}
+
+.tituloCursosSop{
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: cadetblue;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descricaoCursoSop{
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    /*background-color: khaki;*/
+    text-align: center;
+    padding-top: 20px;
+}
+
+.caixaAlignVideoSop{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+
+.containerTituloDescricaoVideoCursosSop{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: blueviolet;*/
+}
+
+
+/* Seção Estrutura dos cursos separados de HTML e SOP */
+.containerMaeCursosSeparados{
+    height: 900px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.corpoDosCursosSOPeHTML{
+    height: 640px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(63, 63, 226);*/
+}
+
+.tituloUniversalSopHtml{
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: seagreen;*/
+}
+
+.descricaoUniversalCursosSopHtml{
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    /*background-color: khaki;*/
+    text-align: center;
+    /*padding-top: 20px;*/
+    /*background-color: royalblue;*/
+}
+
+.caixaAlignVideoUniversalHtmlSop{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rosybrown;*/
+    /*background-color: red;*/
+}
+
+/* Seção do rodapé */
+
+#containerrodape{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(17, 0, 255, 0.767);
+}
+
+#iconesContatos{
+    float: left;
+    height: 60px;
+    width: 330px;
+}
+
+
+.caixaIconeRodape{
+    float: left;
+    height: 45px;
+    width: 50px;
+    margin-right: 15px;
+    margin-left: 8px;
+    padding-top: 5px;
+
+}
+.iconeRodape{
+    width: 45px;
+    height: 45px;
+}
+
+.conteudoContatoRodape{
+    float: left;
+    height: 45px;
+    width: 200px;
+    padding-top: 5px;
+
+}
+
+.aRodape{
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#iconeContatos2{
+    float: left;
+    height: 60px;
+    width:400px;
+}
+
